@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Portfolio — vimalraj</title>
+  <meta name="description" content="A modern student digital portfolio with projects, skills, and contact form." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+<pre><code>&lt;header&gt;
+
+  &lt;div class=&quot;brand&quot;&gt;
+
+    &lt;div class=&quot;avatar&quot; aria-hidden&gt;BM&lt;/div&gt;
+
+    &lt;div&gt;
+
+      &lt;h1 id=&quot;siteName&quot;&gt;mr — vimalraj &lt;/h1&gt;
+
+      &lt;p class=&quot;lead&quot;&gt;Student • Web Developer&lt;/p&gt;
+
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div style=&quot;display:flex;gap:8px;align-items:center&quot;&gt;
+
+    &lt;button id=&quot;themeToggle&quot; class=&quot;btn btn-ghost&quot; aria-pressed=&quot;false&quot;&gt;Toggle Theme&lt;/button&gt;
+
+  &lt;/div&gt;
+
+&lt;/header&gt;
+
+&lt;section class=&quot;hero&quot;&gt;
+
+  &lt;div class=&quot;intro&quot;&gt;
+
+    &lt;h2&gt;Hello — I'm &lt;span id=&quot;yourNameInline&quot;&gt;vimalraj&lt;/span&gt;&lt;/h2&gt;
+
+    &lt;p&gt;I'm a student building things on the web. I love creating small apps, visual designs and learning new libraries.&lt;/p&gt;
+
+    &lt;div class=&quot;cta&quot;&gt;
+
+      &lt;button class=&quot;btn btn-primary&quot; id=&quot;contactMe&quot;&gt;Contact Me&lt;/button&gt;
+
+      &lt;button class=&quot;btn btn-ghost&quot; id=&quot;viewProjects&quot;&gt;View Projects&lt;/button&gt;
+
+    &lt;/div&gt;
+
+    &lt;div style=&quot;margin-top:14px&quot; class=&quot;stats&quot;&gt;
+
+      &lt;div class=&quot;stat&quot;&gt;&lt;b id=&quot;projCount&quot;&gt;6&lt;/b&gt;&lt;span class=&quot;muted&quot;&gt;Projects&lt;/span&gt;&lt;/div&gt;
+
+      &lt;div class=&quot;stat&quot;&gt;&lt;b id=&quot;years&quot;&gt;2&lt;/b&gt;&lt;span class=&quot;muted&quot;&gt;Experience&lt;/span&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;aside style=&quot;background:var(--card);padding:18px;border-radius:12px&quot;&gt;
+
+    &lt;h4 style=&quot;margin:0 0 10px 0&quot;&gt;Quick info&lt;/h4&gt;
+
+    &lt;p class=&quot;muted&quot; style=&quot;margin:0 0 12px 0&quot;&gt;Creating Codes for fun • Available remotely • Stay in Pondicherry&lt;/p&gt;
+
+    &lt;div style=&quot;display:flex;gap:8px;flex-direction:column&quot;&gt;
+
+      &lt;div class=&quot;pill&quot;&gt;Email: &lt;button id=&quot;copyEmail&quot; class=&quot;btn btn-ghost&quot; style=&quot;padding:6px&quot;&gt;copy&lt;/button&gt;&lt;/div&gt;
+
+      &lt;div class=&quot;pill&quot;&gt;Phone: +91-7200760529&lt;/div&gt;
+
+      &lt;div class=&quot;pill&quot;&gt;Graduation: 2026&lt;/div&gt;
+
+    &lt;/div&gt;
+
+  &lt;/aside&gt;
+
+&lt;/section&gt;
+
+&lt;section id=&quot;projects&quot; class=&quot;section&quot;&gt;
+
+  &lt;h3&gt;Projects&lt;/h3&gt;
+
+  &lt;div class=&quot;filters&quot; role=&quot;tablist&quot; aria-label=&quot;Filter projects&quot;&gt;
+
+    &lt;button class=&quot;btn btn-ghost filter&quot; data-filter=&quot;all&quot;&gt;All&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-ghost filter&quot; data-filter=&quot;web&quot;&gt;Web&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-ghost filter&quot; data-filter=&quot;design&quot;&gt;Design&lt;/button&gt;
+
+    &lt;button class=&quot;btn btn-ghost filter&quot; data-filter=&quot;game&quot;&gt;Game&lt;/button&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;grid&quot; id=&quot;projectGrid&quot;&gt;&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;section class=&quot;section&quot;&gt;
+
+  &lt;h3&gt;Skills &amp; Education&lt;/h3&gt;
+
+  &lt;div class=&quot;two-cols&quot;&gt;
+
+    &lt;div&gt;
+
+      &lt;h4&gt;Skills&lt;/h4&gt;
+
+      &lt;div class=&quot;skill&quot;&gt;&lt;span&gt;HTML &amp; CSS&lt;/span&gt;&lt;div class=&quot;bar&quot; aria-hidden&gt;&lt;i style=&quot;width:95%&quot;&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;
+
+      &lt;div class=&quot;skill&quot;&gt;&lt;span&gt;JavaScript&lt;/span&gt;&lt;div class=&quot;bar&quot; aria-hidden&gt;&lt;i style=&quot;width:82%&quot;&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;
+
+      &lt;h4 style=&quot;margin-top:12px&quot;&gt;Education&lt;/h4&gt;
+
+      &lt;p class=&quot;muted&quot;&gt;Bsc — computer science — 2025 — Present&lt;/p&gt;
+
+    &lt;/div&gt;
+
+    &lt;aside style=&quot;background:var(--card);padding:12px;border-radius:12px&quot;&gt;
+
+      &lt;h4&gt;Contact&lt;/h4&gt;
+
+      &lt;form id=&quot;contactForm&quot;&gt;
+
+        &lt;input id=&quot;name&quot; type=&quot;text&quot; placeholder=&quot;Your name&quot; required /&gt;
+
+        &lt;input id=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;Your email&quot; required /&gt;
+
+        &lt;textarea id=&quot;message&quot; placeholder=&quot;Message&quot; required&gt;&lt;/textarea&gt;
+
+        &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Send message&lt;/button&gt;
+
+        &lt;p id=&quot;formFeedback&quot; class=&quot;muted&quot; style=&quot;margin:6px 0 0 0&quot;&gt;&lt;/p&gt;
+
+      &lt;/form&gt;
+
+    &lt;/aside&gt;
+
+  &lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;footer&gt;
+
+  &lt;small&gt;Made with HTML, CSS AND JS • &lt;span id=&quot;year&quot;&gt;&lt;/span&gt; • &lt;span class=&quot;muted&quot;&gt;Done by Me&lt;/span&gt;&lt;/small&gt;
+
+&lt;/footer&gt;
+</code></pre>
+  </main>
+  <div id="modalBg" class="modal-bg" role="dialog" aria-modal="true" aria-hidden="true">
+<pre><code>&lt;div class=&quot;modal&quot; id=&quot;modal&quot;&gt;
+
+  &lt;button id=&quot;closeModal&quot; class=&quot;btn btn-ghost&quot; style=&quot;float:right&quot;&gt;Close&lt;/button&gt;
+
+  &lt;div id=&quot;modalContent&quot;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
